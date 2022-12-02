@@ -1,0 +1,163 @@
+@import "./base/reset";
+@import "./utils/variables";
+@import "./utils/mixin";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./mediaQ";
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 4.5rem auto auto;
+}
+
+/* MAIN HOME */
+body {
+  background-color: $colorBurly;
+}
+
+.container {
+  .tituloHome {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .productoContainer {
+    gap: 20px;
+
+    .producto {
+      background-color: #fff;
+      border-radius: 5px;
+      border: 2px solid $colorBlack;
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+      .imgProducto {
+        height: 400px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* MAIN CARTA */
+
+.mainProductos {
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+  }
+
+  .containerProductos {
+    @include flex(row, wrap, center, none);
+
+    .cafeCitoCarta {
+      border: 1px solid $colorBlack;
+      /* width: 30%; */
+      padding: 20px;
+      @include flex(column, wrap, flex-start, center);
+      margin: 10px;
+      margin-bottom: 50px;
+      text-align: justify;
+
+      h2 {
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      table {
+        color: $colorBlack;
+        width: 100%;
+
+        td {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+/* MAIN NOSOTROS */
+
+.mainNosotros {
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+  }
+
+  .containerNosotros {
+    margin-bottom: 20px;
+    display: flex;
+
+    img {
+      width: 30%;
+    }
+
+    p {
+      text-align: center;
+      margin: auto 20px;
+    }
+  }
+}
+
+/* MAIN GALERIA */
+
+.mainGaleria {
+  display: flex;
+  justify-content: center;
+
+  .contenidoGaleria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    img {
+      padding: 10px;
+      width: 300px;
+      height: 350px;
+    }
+  }
+}
+
+/* MAIN CONTACTANOS */
+
+.mainContacto {
+  padding: 10px;
+  .containerFormulario {
+    .formularioContactanos {
+      padding: 20px;
+
+      .tituloContactanos {
+        text-align: center;
+      }
+    }
+  }
+
+  .containerInformacion {
+    h2 {
+      text-align: center;
+      margin: 10px 0px;
+    }
+    .location {
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+
+      svg {
+        text-align: center;
+        margin-right: 7px;
+        width: 15px;
+      }
+    }
+
+    .iframeMap {
+      width: 70%;
+      position: relative;
+      left: 15%;
+    }
+  }
+}

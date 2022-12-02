@@ -1,0 +1,15 @@
+.footer {
+  background-color: $colorGrey;
+  @include flex(row, nowrap, space-around, center);
+  padding: 10px;
+  position: relative;
+  /* margin-top: 20px; */
+  
+  bottom: 0%;
+
+  a {
+    font-size: 2rem;
+    color: $colorBlack;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nuestro contacto y ubicación, para que pueda visitarnos y comunicarse con nosotros.">
+    <meta name="keywords" content="Café, Medialunas, Merienda, Almuerzo, Desayuno, Cena, Dulce, Salado, Dulce de leche, Canela, Brownie, Frutos Rojos, Chocolate, Croissant, Bebidas, Laminados, Pastelería.">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"/>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script 
+          defer
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+          crossorigin="anonymous">
+    </script>
+
+    <!-- Link de animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Link con CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Café Cito | Contactanos</title>
+</head>
+
+<body class="gridContainer">
+    <!-- Header -->
+    <header>
+        <a href="../index.html" class="cafeCito animate__animated animate__bounceInDown">Café Cito</a>
+  
+        <nav class="navbar fixed-top d-block d-lg-none menuHamburguesa">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Café Cito</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Café Cito</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="galeria.html">Galeria</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link-active" href="#">Contactanos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav class="d-none d-lg-block">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contactanos.html" class="activo">Contactanos</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <!-- Main -->
+    <main class="mainContacto">
+        <div class="containerFormulario">
+            <form action="" class="col container-xl col-12 border border-4 my-4 d-flex flex-column justify-content-between formularioContactanos">                  
+                <h1 class="animate__animated animate__bounceInLeft tituloContactanos">DEJANOS TU CONSULTA</h1>              
+                    <div class="form-floating w-75 m-auto">
+                        <input type="text" class="form-control" id="floatingName" placeholder="Nombre:">
+                        <label for="floatingName">Nombre:</label>
+                    </div>  
+                    <!-- nombre -->
+                    <div class="form-floating w-75 m-auto">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email:</label>
+                    </div>  
+                    <!-- email --> 
+                    <div class="form-floating w-75 m-auto">
+                        <textarea class="form-control t-area" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+                        <label for="floatingTextarea2">Comentario:</label>        
+        </div>
+        
+        <div class="containerInformacion">
+            <h2>INFORMACIÓN DEL CONTACTO</h2>
+            <div class="location">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>
+                <p>Rodríguez Pena 1030, B1663ODV, San Miguel, Provincia de Buenos Aires</p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.3702115808696!2d-58.708649484771875!3d-34.54418078047503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd5689ffa87f%3A0xfeaa1fa92be52591!2sCafecito!5e0!3m2!1ses-419!2sar!4v1666911550045!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframeMap"></iframe >
+        </div>
+
+    </main>
+        
+
+    <!-- Footer -->
+     <footer class="footer">
+        <p>
+          © Copyright 2022-2022 | Rodriguez Peña 1030, San Miguel, Buenos Aires, Argentina.
+        </p>
+        <a href="https://www.instagram.com/cafecito_sm/"><i class="fab fa-instagram"></i></a>
+    </footer>
+</body>
+</html>

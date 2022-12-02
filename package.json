@@ -1,0 +1,15 @@
+{
+  "name": "cafecito-proyecto",
+  "version": "1.0.0",
+  "description": "Coder House Proyecto Cafe Cito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valentino Monje",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

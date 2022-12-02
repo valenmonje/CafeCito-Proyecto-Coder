@@ -1,0 +1,18 @@
+@mixin flex($dir, $wrap, $just, $aling) {
+  display: flex;
+  flex-flow: $dir $wrap;
+  justify-content: $just;
+  align-items: $aling;
+}
+
+@mixin mediaT() {
+  @media only screen and (max-width: 769px) {
+    @content;
+  }
+}
+
+@mixin mediaP() {
+  @media only screen and (max-width: 426px) {
+    @content;
+  }
+}

@@ -1,0 +1,221 @@
+/* Estilos header */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 4.5rem auto auto;
+}
+
+header{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .cafeCito{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px 10px;
+}
+
+.menuHamburguesa{
+    background-color: grey;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin: 20px 15px;
+    list-style: none;;
+}
+
+header nav ul li a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+header nav ul li a:hover{
+    background-color:#FFF
+     
+}
+
+header nav ul li:hover{
+    transform: scale(0.9);
+}
+
+.activo{
+    background-color: #FFF;
+}
+
+/* MAIN HOME */
+body{
+    background-color: burlywood;
+}
+.tituloHome{
+    text-align: center;
+    padding: 20px;
+}
+
+.productoContainer{
+    gap: 20px;
+}
+
+.imgProducto{
+    height: 400px;
+}
+
+h2{
+    text-align: center;
+}
+
+.producto{
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.footer{
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.footer a{
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+}
+/* MAIN CARTA */
+
+.mainProductos{
+        padding: 20px;
+}
+
+.mainProductos h1{
+        text-align: center;
+}
+
+.containerProductos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+}
+
+.cafeCitoCarta{
+        border: 1px solid black;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+        margin-bottom: 50px;
+        text-align: justify;
+        
+}
+
+.cafeCitoCarta h2{
+        margin-top: 30px;
+        text-align: center;
+}
+
+.cafeCitoCarta table{
+        color: black;
+}
+
+.cafeCitoCarta table td{
+        padding: 10px;
+}
+
+/* MAIN NOSOTROS */
+
+.mainNosotros{
+    height: 79vh;
+    padding: 20px;
+}
+
+.mainNosotros h1{
+    text-align: center;
+}
+
+.containerNosotros{
+    margin-bottom: 20px;
+    display: flex;    
+}
+
+.containerNosotros img{
+    width: 30%;
+}
+
+.containerNosotros p{
+    text-align: center;
+    margin: auto 20px;
+}
+
+/* MAIN GALERIA */
+
+.contenidoGaleria img{
+    padding: 10px;
+    width: 300px;
+    height: 350px;
+    
+}
+
+/* MAIN CONTACTANOS */
+
+.tituloContactanos{
+    text-align: center;
+}
+.formularioContactanos{
+    padding: 20px;
+}
+
+.location{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.location svg{
+    text-align: center;
+    margin-right:7px ;
+    width: 15px;
+}
+
+.iframeMap{
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

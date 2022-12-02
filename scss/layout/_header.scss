@@ -1,0 +1,45 @@
+header {
+  background-color: $colorGrey;
+  display: flex;
+  justify-content: space-between;
+
+  .cafeCito {
+    color: $colorBlack;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px 10px;
+  }
+  .menuHamburguesa {
+    background-color: $colorGrey;
+  }
+  nav {
+    ul {
+      display: flex;
+
+      li {
+        margin: 20px 15px;
+        list-style: none;
+
+        &:hover {
+          transform: scale(0.9);
+        }
+
+        a {
+          @extend .cafeCito;
+          margin: 0px;
+          padding: 10px;
+          font-size: 20px;
+          border-radius: 10px;
+
+          &:hover {
+            background-color: #fff;
+          }
+        }
+
+        .activo {
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}

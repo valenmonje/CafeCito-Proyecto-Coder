@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Encontraras los productos mas vendidos de nuestro local, en esta tambièn se brindara una pequeña descripciòn de cada uno de ellos.">
+    <meta name="keywords" content="Café, Medialunas, Merienda, Almuerzo, Desayuno, Cena, Dulce, Salado, Dulce de leche, Canela, Brownie, Frutos Rojos, Chocolate, Croissant.">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"/>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous">
+    </script>
+
+    <!-- Link de animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Link con CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Café Cito | Home</title>
+
+  </head>
+
+  <body class="gridContainer">
+    <!-- Header -->
+    <header>
+      <a href="index.html" class="cafeCito animate__animated animate__bounceInDown">Café Cito</a>
+
+      <nav class="navbar fixed-top d-block d-lg-none menuHamburguesa">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Café Cito</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Café Cito</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/nosotros.html">Nostros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/galeria.html">Galeria</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/contactanos.html">Contactanos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav class="d-none d-lg-block">
+        <ul>
+          <li><a href="index.html" class="activo">Home</a></li>
+          <li><a href="./pages/productos.html">Productos</a></li>
+          <li><a href="./pages/nosotros.html">Nosotros</a></li>
+          <li><a href="./pages/galeria.html">Galeria</a></li>
+          <li><a href="./pages/contactanos.html">Contactanos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="container">
+        <h1 class="animate__animated animate__bounceInLeft tituloHome">LO MÁS VENDIDO</h1>
+        <div class="row w-100 m-auto d-flex justify-content-around productoContainer">
+
+            <div class="col-12 col-lg-5 p-3 producto">
+                <img src="./img/cafe.webp" alt="Café de especialidad" class="w-100 imgProducto">
+                <h2>Café de especialidad</h2>
+                    <p>Se llama Café de Especialidad al Café de alta calidad. <br> Para que este sea considerado de alta calidad, tiene que alcanzar un puntaje mínimo de 80/100 en una evaluación hecha por un catador certificado, en donde se controla la calidad del grano verde, sus atributos sensoriales, el tueste, su resultado en taza, entre otras cosas! <br> Todas las variedades que trabajamos en Café Cito pasaron por estrictas clasificaciones y procedimientos de control establecidos, que aseguran que el producto es de excelente calidad!</p>
+            </div>
+            <div class="col-12 col-lg-5 p-3 producto">
+                <img src="./img/croissant.jpg" alt="Croissant" class="w-100 imgProducto">
+                <h2>Croissant</h2>
+                    <p>Es una pieza de panadería de origen francés. Fue creada en París en el siglo XIX donde los panaderos locales se inspiraron de la forma del kifli austriaco popularizado por el panadero vienés August Zang, pero usaron una masa hojaldrada fermentada típicamente francesa</p>
+            </div>
+            
+            <div class="col-12 col-lg-5 p-3 producto">
+                <img src="./img/roldecanela.jpg" alt="Roll de canela" class="w-100 imgProducto">   
+                <h2>Roll de canela</h2>
+                <p>Consiste en un rollo de masa abriochada con canela y mezcla de azúcar (y pasas en algunos casos), rociado sobre una delgada capa de mantequilla. La masa es enrollada, cortada en porciones individuales y horneada. A los rollos de canela se les glasea con azúcar o una crema de queso. <br> En la actualidad, es una especialidad repostera típica de los Estados Unidos y del norte de Europa. En Suecia se lo conoce con el nombre de "kanelbulle". Es un panecillo muy popular para acompañar el café. Desde 1999, se celebra el Día del Rollo de Canela, cada 4 de octubre.</p>
+            </div>
+        
+            <div class="col-12 col-lg-5 p-3 producto">
+                <img src="./img/brownie.jpg" alt="Brownie con frutos rojos y chocolate blanco" class="w-100 imgProducto">
+                <h2>Brownie con frutos rojos y chocolate blanco</h2>
+                    <p>Un brownie es un bizcocho de chocolate pequeño, típico de la gastronomía de Estados Unidos. Se llama así por su color marrón oscuro, o brown en inglés. A veces se cubre con jarabe espeso de chocolate y puede llevar dentro trocitos de nueces, chocolate butterscotch (una especie de toffee crujiente) o mantequilla de maní.</p>
+            </div>
+            </div>
+        </div>
+     
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+          © Copyright 2022-2022 | Rodriguez Peña 1030, San Miguel, Buenos Aires, Argentina.
+        </p>
+        <a href="https://www.instagram.com/cafecito_sm/"><i class="fab fa-instagram"></i></a>
+    </footer>
+  </body>
+</html>

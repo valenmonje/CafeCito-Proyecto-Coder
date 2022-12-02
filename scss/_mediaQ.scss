@@ -1,0 +1,63 @@
+/* MediaQ de Productos */
+@include mediaT() {
+  .containerProductos {
+    @include flex(row, wrap, space-between, none);
+
+    .cafeCitoCarta {
+      width: 47%;
+      margin: 0;
+    }
+  }
+}
+
+@include mediaP() {
+  .containerProductos {
+    .cafeCitoCarta {
+      width: 100%;
+    }
+  }
+}
+
+/* MediaQ de Nosotros */
+@include mediaP() {
+  .mainNosotros {
+    .containerNosotros {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .p {
+        margin: 20px;
+      }
+
+      .img {
+        width: 50%;
+      }
+    }
+  }
+}
+
+/* MediaQ de Galeria */
+@include mediaT() {
+    .mainGaleria{
+        .contenidoGaleria{
+            justify-content: center;
+        }
+    }
+}
+
+
+
+
+
+/* MediaQ de Contactanos */
+@include mediaT () {
+    .mainContacto{
+        padding: 10px;
+    }
+}
+
+@include mediaP () {
+    .mainContacto{
+        padding: 10px;
+    }
+}
