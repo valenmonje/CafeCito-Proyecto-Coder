@@ -1,5 +1,5 @@
 header {
-  background-color: $colorGrey;
+  background-color: $colorBrown;
   display: flex;
   justify-content: space-between;
 
@@ -10,7 +10,7 @@ header {
     margin: 10px 10px;
   }
   .menuHamburguesa {
-    background-color: $colorGrey;
+    background-color: $colorBrown;
   }
   nav {
     ul {
@@ -32,12 +32,13 @@ header {
           border-radius: 10px;
 
           &:hover {
-            background-color: #fff;
+            background-color: $colorOrange;
+            color: black
           }
         }
 
         .activo {
-          background-color: #fff;
+          background-color: $colorOrange;
         }
       }
     }

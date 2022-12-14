@@ -56,6 +56,7 @@ body {
     @include flex(row, wrap, center, none);
 
     .cafeCitoCarta {
+      background-color: $colorOrange;
       border: 1px solid $colorBlack;
       /* width: 30%; */
       padding: 20px;

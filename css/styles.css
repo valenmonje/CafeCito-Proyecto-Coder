@@ -9,7 +9,7 @@
 /* Color del main */
 /* Color del header y footer */
 header {
-  background-color: #808080;
+  background-color: #5E4E3A;
   display: flex;
   justify-content: space-between;
 }
@@ -20,7 +20,7 @@ header .cafeCito, header nav ul li a {
   margin: 10px 10px;
 }
 header .menuHamburguesa {
-  background-color: #808080;
+  background-color: #5E4E3A;
 }
 header nav ul {
   display: flex;
@@ -39,14 +39,15 @@ header nav ul li a {
   border-radius: 10px;
 }
 header nav ul li a:hover {
-  background-color: #fff;
+  background-color: #E39F46;
+  color: black;
 }
 header nav ul li .activo {
-  background-color: #fff;
+  background-color: #E39F46;
 }
 
 .footer {
-  background-color: #808080;
+  background-color: #5E4E3A;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
@@ -156,6 +157,7 @@ body {
   align-items: none;
 }
 .mainProductos .containerProductos .cafeCitoCarta {
+  background-color: #E39F46;
   border: 1px solid #000000;
   /* width: 30%; */
   padding: 20px;
